@@ -1,0 +1,16 @@
+#!/bin/sh
+gmtset FONT_LABEL  22p,Helvetica,black FONT_ANNOT_PRIMARY 14
+makecpt -Crainbow -T5.095761e-06/3.620212e-03/2.410077e-04 -V > stack1.cpt
+surface stack1.dat -T0.25 -Gstack1.grd -I0.010000/0.200000 -R90.000000/210.000000/-2.000000/2.000000 -V
+grdimage stack1.grd -JX15/10 -Cstack1.cpt -R90.000000/210.000000/-2.000000/2.000000 -Ba00015.00:"@%4% Time (s)":/a000.50:"@%4% Slowness (s/deg)":WS -Xc -Yc -V -P -K > stack1.ps
+psxy -JX15/10 -R90.000000/210.000000/-2.000000/2.000000 -W0.8,white -O -K << EOF >> stack1.ps
+  90.000000 0.0
+  210.000000 0.0
+EOF
+pstext -JX15/10 -R90.000000/210.000000/-2.000000/2.000000 -N -P -O -V -K << EOF >> stack1.ps
+  150.005000 2.500000 20  0.0 4 2 Slant Stack at a Backazimuth of 176.93 @+o@+N
+EOF
+psscale -B0.0009:"@%4% Beam Envelope (sqrt scaling):" -Cstack1.cpt -D7.5/-2.0/10.0/0.8h -O -K >>stack1.ps
+awk '{print $2,$3-0.11}' p_gmt.dat | psxy -R -JX -St0.4 -W1,white -O -K >> stack1.ps
+awk '{print $2,$3-0.5,$1}' p_gmt.dat | pstext -F+jMC+f12,Helvetica-BoldOblique,white -R  -JX -O  >> stack1.ps
+#awk '{print "150.005000 7.500000 14 0 0 6 ",$1,$2,$3,$4,$5,$6,$7,$8}' eve.doc | pstext -R -JX -N -O >> stack1.ps

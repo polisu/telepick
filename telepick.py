@@ -14,25 +14,46 @@ com="HHZ"
 filend=".decon.p"
 for event in events:
     print(event)
-    sac=obspy.read(event+"/*"+com+"*"+filend)
-    year=sac[0].stats.sac.nzyear
-    jday=sac[0].stats.sac.nzjday
-    hour=sac[0].stats.sac.nzhour
-    min=sac[0].stats.sac.nzmin
-    sec=sac[0].stats.sac.nzsec
-    msec=1000*sac[0].stats.sac.nzmsec
+    st=obspy.read(event+"/*"+com+"*"+filend)
+    year=st[0].stats.sac.nzyear
+    jday=st[0].stats.sac.nzjday
+    hour=st[0].stats.sac.nzhour
+    min=st[0].stats.sac.nzmin
+    sec=st[0].stats.sac.nzsec
+    msec=1000*st[0].stats.sac.nzmsec
     origin=obspy.UTCDateTime(year=year,julday=jday,hour=hour,minute=min,second=sec,microsecond=msec)
-    #predict
-    #snr(each trace)
+
+for tr in st:
+    print(tr.stats)
+#pick(each trace)
+#snr(each trace)
+# for loop:
+    #select(each trace)
     #stack
     #pick(stack)
-    #window(stack)
-    #snr(stack)
-    #xcorr
-    #eval
-    
-    
-    #origin=obspy.UTCDateTime(year=sac[0].sac, julday=299, hour=9, minute=9,second=42, microsecond=20)
-    
-    
-def 
+    #window(stack)   find p wave window
+    #cut(stack) (obspy trace method)
+    #match(each trace)
+    #uncertainty(stack trace and then each trace)
+    #eval stopping criteria
+    #if pass break
+#else:
+
+
+class telepick_trace(obspy.core.trace.Trace):
+    pass
+    #    def __init__(self,:
+#        self.
+#    def pick(self,:   
+        
+#    def snr(self,pick):
+#        
+#    def select:
+#        
+#    def window(self, phase):
+#        
+#    def match(self, stack_phase):
+#        
+#    def uncertainty:
+        
+        

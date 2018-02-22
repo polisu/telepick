@@ -1,0 +1,6 @@
+90 210         # begin time and end time for xcorr window
+90 210         # begin time and end time for output
+1              # fudge factor for amplitudes
+0.1 1.0 0     # lowc, highc, npole for filter
+stackZ.sac
+stackR.sac

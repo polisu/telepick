@@ -1,0 +1,32 @@
+70 130         # begin time and end time for xcorr window
+70 130         # begin time and end time for output
+1              # fudge factor for amplitudes
+0.1 1.0 3     # lowc, highc, npole for filter
+CHY.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+ECL.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+EDH.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+ETLH.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+EWT.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+FUSS.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+ICHU.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+ILA.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+LONT.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+NCUH.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+NDS.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+NHDH.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+NMLH.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+NTC.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+NWF.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+NWL.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+SCS.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+SLIU.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+SMG.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+SNJ.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+SSP.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+STYH.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+WCHH.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+WCS.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+WDJ.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+WDLH.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+WHP.HHN.CWB_BH.02_2015.058.sac.cut.decon.p
+WJS.HHN.CWB_BH.02_2015.058.sac.cut.decon.p

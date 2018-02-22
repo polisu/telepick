@@ -1,0 +1,38 @@
+93 113 
+0.01 0.01       # original and new sampling interval
+90              # stack initialization time
+120             # stack window length
+0.1 1.0 3       # Corner freqs and npoles
+1               # vary slowness (1) or backazimuth (2)
+-2 2 0.2        # min, max, and inc for slowness (s/km)
+3               # beamflag
+2               # eflag
+stack1          # output file
+CHY.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+ECL.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+EDH.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+ETLH.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+EWT.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+FUSS.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+ICHU.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+ILA.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+LONT.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+NCUH.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+NDS.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+NHDH.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+NMLH.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+NTC.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+NWF.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+NWL.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+SCS.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+SLIU.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+SMG.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+SNJ.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+SSP.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+STYH.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+WCHH.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+WCS.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+WDJ.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+WDLH.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+WHP.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
+WJS.HHZ.CWB_BH.02_2015.058.sac.cut.decon.p
