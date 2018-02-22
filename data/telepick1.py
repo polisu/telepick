@@ -5,8 +5,6 @@ Created on Tue Jan 30 10:41:22 2018
 
 Author: Po-Li Su @ NCU
 """
-import sys
-sys.path.append("/home/peter/0_wrk/Code/PhasePApy")
 from obspy.core import *
 import numpy as np
 #from phasepapy.phasepicker import aicdpicker
@@ -27,10 +25,16 @@ for event in events:
     sec=st[0].stats.sac.nzsec
     msec=1000*st[0].stats.sac.nzmsec
     origin=UTCDateTime(year=year,julday=jday,hour=hour,minute=min,second=sec,microsecond=msec)
-    tr=st[0]
-    tr.plot()
-    tr.detrend(type='demean')
-    tr.plot()
+    nfile=len(st)
+    tp=[origin+st[i].stats.sac.t0 for i in range(0,nfile)]
+    st.plot()
+    st.detrend(type='demean')
+    st.detrend(type='linear')
+    st.filter('bandpass',freqmin=0.1, freqmax=1.0)
+    st.taper(max_percentage=0.1)
+    st.detrend(type='demean')
+    st.detrend(type='linear')
+    st.plot()
     
     
     #st.plot()
