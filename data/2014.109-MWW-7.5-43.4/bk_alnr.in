@@ -1,0 +1,23 @@
+93 113 
+0.01 0.01       # original and new sampling interval
+90              # stack initialization time
+120             # stack window length
+0.1 1.0 3       # Corner freqs and npoles
+1               # vary slowness (1) or backazimuth (2)
+-2 2 0.2        # min, max, and inc for slowness (s/km)
+3               # beamflag
+2               # eflag
+stack1          # output file
+CHY.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+EGFH.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+HWA.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NCUH.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NDT.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NHDH.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NMLH.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NNSH.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NTC.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NWL.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+TTN.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+WDLH.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+WJS.HHR.CWB_BH.02_2014.109.sac.cut.decon.p

@@ -1,0 +1,10 @@
+# GMT 5 Session common arguments shelf
+BEGIN GMT 5.1.1
+B	0000005.00:@%4% Time (s):/0000000.25:@%4% Amplitude:eWSn
+J	X
+JX	X6.0/3.0
+R	90.000000/130.000000/-1.000000/1.500000
+X	c
+Y	-3.5
+L	8
+END

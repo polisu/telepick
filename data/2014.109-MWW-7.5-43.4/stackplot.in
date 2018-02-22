@@ -1,0 +1,17 @@
+90 210         # begin time and end time for xcorr window
+90 210         # begin time and end time for output
+1              # fudge factor for amplitudes
+0.1 1.0 3     # lowc, highc, npole for filter
+CHY.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+EGFH.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+HWA.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NCUH.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NDT.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NHDH.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NMLH.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NNSH.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NTC.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+NWL.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+TTN.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+WDLH.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
+WJS.HHR.CWB_BH.02_2014.109.sac.cut.decon.p
